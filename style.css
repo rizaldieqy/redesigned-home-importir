@@ -171,12 +171,23 @@ flex-direction: row;
 .banner2{
 display: flex;
 flex-direction: column;
-margin-left: 20px;      
+margin-left: 25px;      
 place-items: center;
+width: 92%;
+}
+
+.top-banner2{
+  margin-left: -40px;
+}
+
+@media (max-width: 800px){
+  .top-banner2{
+    margin-left: 0px;
+  }
 }
 
 .mini-banner1{
-margin-bottom: 38px;
+margin-bottom: 9px;
 }
 
 @media (max-width: 512px){
@@ -193,9 +204,9 @@ margin-bottom: 38px;
 }
 
 .mini-banner2{
-  margin-top: -28px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-top: 2px;
+  margin-right: 12px;
+  margin-left: -2px;
   padding-left: 0;
 }
 
@@ -211,7 +222,7 @@ margin-bottom: 38px;
 
 .benefits{
 display: flex;
-align-items: center;
+/* align-items: center; */
 max-width: 100%;
 width: 1200px;
 }
@@ -226,3 +237,13 @@ width: 1200px;
 display: flex;
 justify-content: center;
 }
+
+.logo{
+  justify-content: center;
+}
+
+.product-list{
+  padding-left: 0;
+  padding-right: 0;
+}
+
