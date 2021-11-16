@@ -247,3 +247,21 @@ justify-content: center;
   padding-right: 0;
 }
 
+@media (max-width: 320px){
+  #trophy{
+    margin-left: -30px;
+  }
+
+  #check{
+    margin-left: -16px;
+  }
+
+  #truck{
+    margin-left: -30px;
+  }
+
+  #comment{
+    margin-left: -8px;
+  }
+}
+
